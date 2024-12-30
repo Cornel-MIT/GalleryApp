@@ -23,6 +23,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-asset",
+
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to your camera in order to procceed with your request."
+        }
+      ]
+
+    ]
   }
 }
